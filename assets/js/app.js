@@ -27,16 +27,20 @@ function detectarClick(event) {
         }else if (event.detail == 2) {
           ocultarCancha(canchaBasket);
         }
-        break;
+      break;
 
+      case botonCanchaTennis:
+        if(event.detail == 1){
+          mostrarCancha(canchaTennis);
+        }else if (event.detail == 2) {
+          ocultarCancha(canchaTennis);
+        }
+      break;
 
     default:
 
   }
 }
-
-
-
 
 function mostrarCancha(cancha){
   cancha.style.display = "block";
