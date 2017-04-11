@@ -1,0 +1,62 @@
+#canchaTennis{
+  margin: 0 auto;
+  position: absolute;
+  padding-top: 50px;
+  /*display: none;*/
+}
+
+    #canchaTennis .canchaPrincipalTennis{
+      width: 600px;
+      height: 350px;
+      background: #0653a5; /*color azul rey*/
+      border: 3px solid white;
+      position: relative;
+    }
+
+.lineaSuperior{
+  height: 600px;
+  width: 0px;
+  transform: rotate(90deg);
+  border: 2px solid white;
+  margin-top: -260px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+.lineaInferior{
+  height: 600px;
+  width: 0px;
+  transform: rotate(90deg);
+  border: 2px solid white;
+  margin-top: 6px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+.RecCentral{
+  width: 400px;
+  height: 262px;
+  background: none;
+  border: 3px solid white;
+  margin-top: 40px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.lineaCuadrante{
+  height: 0px;
+  width: 400px;
+  border: 2px solid white;
+  margin-top: -50px;;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.mitadCanchaTennis{
+  height: 350px;
+  width: 0px;
+  border: 2px solid white;
+  margin-top: -52%;
+  margin-left: 51%;
+  position: absolute;
+}
