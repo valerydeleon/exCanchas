@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+}
+
+body{
+  font-family: helvetica;
+  /*ackground: #F3FFBD;/*color vrede claro*/
+}
+
+#botones{
+  margin: 0px;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+#canchaBasket{
+  margin: 0 auto;
+  position: absolute;
+  padding-top: 50px;
+  display: none;
+}
+
+    #canchaBasket .canchaPrincipal{
+      width: 600px;
+      height: 350px;
+      background: #e80279; /*color rosa*/
+      border: 3px solid white;
+      position: relative;
+    }
+
+    #canchaBasket .recLimite{
+      width: 550px;
+      height: 300px;
+      background: #23cec3; /*color azul*/
+      border: 3px solid white;
+      margin-top: 23px;
+      margin-left: 22px;
+      position: absolute;
+    }
+
+.semicirculoIzqBasket{
+  width: 100px;
+  height: 200px;
+  background: #e80279;  /*color rosa*/
+  border: 3px solid white;
+  border-radius: 0 100px 100px 0;
+  margin-top: 70px;
+  margin-left: 22px;
+  position: absolute;
+}
+
+.circuloMiniIzq{
+  width: 36px;
+  height: 36px;
+  background: none;  /*color rosa*/
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 154px;
+  margin-left: 62px;
+  position: absolute;
+}
+
+.trapecioIzq {
+    width: 40px;
+    height: 150px;
+    transform: rotate(90deg);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 60px solid #23cec3;
+    margin-top: 70px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.circuloCentralBasket{
+  width: 100px;
+  height: 100px;
+  background: #e80279;  /*color rosa*/
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 120px;
+  margin-left: 42.5%;
+  position: absolute;
+}
+
+.mitadCanchaBasket{
+  height: 350px;
+  width: 0px;
+  border: 2px solid white;
+  margin-top: 0%;
+  margin-left: 51%;
+  position: absolute;
+}
+
+.semicirculoDerBasket{
+  width: 100px;
+  height: 200px;
+  transform: rotate(180deg);
+  background: #e80279;  /*color rosa*/
+  border: 3px solid white;
+  border-radius: 0 100px 100px 0;
+  margin-top: 70px;
+  margin-left: 471.5px;
+  position: absolute;
+}
+
+.circuloMiniDer{
+  width: 36px;
+  height: 36px;
+  background: none;  /*color rosa*/
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 154px;
+  margin-left: 495px;
+  position: absolute;
+}
+
+.trapecioDer {
+    width: 40px;
+    height: 150px;
+    transform: rotate(270deg);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 60px solid #23cec3;
+    margin-top: 70px;
+    margin-left: 430px;
+    position: absolute;
+}

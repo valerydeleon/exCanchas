@@ -37,6 +37,7 @@ button:hover{
   margin: 0 auto;
   position: absolute;
   padding-top: 50px;
+  display: none;
 }
 
     #canchaFut .canchaPrincipal{

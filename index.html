@@ -4,28 +4,29 @@
     <meta charset="utf-8">
     <title>Canchas en CSS</title>
     <link type="text/css" rel="stylesheet" href="assets/style/futbolStyle.css" >
+    <link type="text/css" rel="stylesheet" href="assets/style/basketStyle.css" >
     <link type="text/css" rel="stylesheet" href="assets/style/cabecera.css" >
 
     <header id="menu">
       <a id="logo-header" href="#">
         <span class="site-name">CANCHAS</span>
         <span class="site-desc">lasChidas / Valeria de León</span>
-      </a> <!-- / #logo-header -->
+      </a>
 
       <nav>
         <ul>
-          <li><a href="#">Fut</a></li>
-          <li><a href="#">Basket</a></li>
-          <li><a href="#">Tennis</a></li>
+          <li><a id="clickCanchaFut" >Fut</a></li>
+          <li><a id="clickCanchaBasket" >Basket</a></li>
+          <li><a id="clickCanchaTennis" >Tennis</a></li>
         </ul>
-      </nav><!-- / nav -->
+      </nav>
     </header>
 
   </head>
   <body>
 
     <!-- <section id="botones" >
-      <button type="button" id="bFut" >Fut</button>
+      <button type="button" id="clickCanchaFut" >Fut</button>
       <button type="button" id="bBasket" >Basket</button>
       <button type="button" id="bTennis" >Tennis</button>
     </section> -->
@@ -41,7 +42,36 @@
           <article class="circuloCentral" ></article>
         </article>
       </section>
+
+      <section id="canchaBasket" >
+        <article class="canchaPrincipal" >
+          <article class="recLimite" ></article>
+          <article class="semicirculoIzqBasket" ></article>
+          <article class="trapecioIzq" ></article>
+          <article class="circuloMiniIzq" ></article>
+          <article class="mitadCanchaBasket" ></article>
+          <article class="circuloCentralBasket" ></article>
+          <article class="semicirculoDerBasket" ></article>
+          <article class="trapecioDer" ></article>
+          <article class="circuloMiniDer" ></article>
+        </article>
+      </section>
+
+      <section id="canchaTennis" >
+        <article class="canchaPrincipal" >
+          <article class="lineaSuperior" ></article>
+          <article class="lineaInferior" ></article>
+          <article class="RecCentral" ></article>
+          <article class="circuloMiniIzq" ></article>
+          <article class="mitadCanchaBasket" ></article>
+          <article class="lineaCuadrante" ></article>
+          <article class="redCancha" ></article>
+        </article>
+      </section>
+
     </section>
+
+    <script src="assets/js/app.js" ></script>
 
   </body>
 </html>
